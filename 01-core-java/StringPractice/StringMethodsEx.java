@@ -54,7 +54,7 @@ class StringMethodsEx{
 
 
         // Split the string
-        String[] parts = str.trim().split(", ");
+        String[] parts = str.trim().split(", "); 
         System.out.println("Split by ', ':");
         for (String part : parts) {
             System.out.println(part);
